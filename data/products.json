@@ -1,0 +1,500 @@
+{
+  "products": [
+    {
+      "id": "ysl-small-cabas-black",
+      "slug": "ysl-small-cabas-black",
+      "name": "Small Cabas in Black",
+      "brand": "YSL",
+      "type": "Shoulder-bag",
+      "price": 24500,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": null,
+      "inStock": false,
+      "featured": true,
+      "images": [
+        "images/products/ysl-small-cabas-black/2.jpg",
+        "images/products/ysl-small-cabas-black/3.jpg",
+        "images/products/ysl-small-cabas-black/4.jpg",
+        "images/products/ysl-small-cabas-black/5.jpg",
+        "images/products/ysl-small-cabas-black/6.jpg",
+        "images/products/ysl-small-cabas-black/7.jpg",
+        "images/products/ysl-small-cabas-black/8.jpg",
+        "images/products/ysl-small-cabas-black/9.jpg",
+        "images/products/ysl-small-cabas-black/10.jpg",
+        "images/products/ysl-small-cabas-black/11.jpg",
+        "images/products/ysl-small-cabas-black/12.jpg",
+        "images/products/ysl-small-cabas-black/13.jpg",
+        "images/products/ysl-small-cabas-black/14.jpg",
+        "images/products/ysl-small-cabas-black/15.jpg"
+      ],
+      "description": {
+        "en": "Elegant YSL Small Cabas bag in timeless black. Perfect everyday tote with signature YSL hardware.",
+        "th": "กระเป๋า YSL Small Cabas สีดำคลาสสิก กระเป๋าโท้ทใช้ประจำวันที่สมบูรณ์แบบพร้อมฮาร์ดแวร์ YSL"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Authenticity card",
+        "Dust bag"
+      ]
+    },
+    {
+      "id": "balenciaga-classic-city-grey",
+      "slug": "balenciaga-classic-city-grey",
+      "name": "Classic City in Grey SHW",
+      "brand": "Balenciaga",
+      "type": "Shoulder-bag",
+      "price": 28900,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": null,
+      "inStock": false,
+      "featured": true,
+      "images": [
+        "images/products/balenciaga-classic-city-grey/2.jpg",
+        "images/products/balenciaga-classic-city-grey/3.jpg",
+        "images/products/balenciaga-classic-city-grey/4.jpg",
+        "images/products/balenciaga-classic-city-grey/5.jpg",
+        "images/products/balenciaga-classic-city-grey/6.jpg",
+        "images/products/balenciaga-classic-city-grey/7.jpg",
+        "images/products/balenciaga-classic-city-grey/8.jpg",
+        "images/products/balenciaga-classic-city-grey/9.jpg",
+        "images/products/balenciaga-classic-city-grey/10.jpg",
+        "images/products/balenciaga-classic-city-grey/11.jpg",
+        "images/products/balenciaga-classic-city-grey/12.jpg",
+        "images/products/balenciaga-classic-city-grey/13.jpg",
+        "images/products/balenciaga-classic-city-grey/14.jpg",
+        "images/products/balenciaga-classic-city-grey/15.jpg"
+      ],
+      "description": {
+        "en": "Iconic Balenciaga Classic City bag in elegant grey with silver hardware. A timeless piece from the most coveted Balenciaga collection.",
+        "th": "กระเป๋า Balenciaga Classic City สีเทาสวยงามพร้อมฮาร์ดแวร์สีเงิน ไอเท็มคลาสสิกจากคอลเล็กชัน Balenciaga ที่เป็นที่ต้องการมากที่สุด"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Mirror",
+        "Dust bag",
+        "Strap"
+      ]
+    },
+    {
+      "id": "ysl-round-bag-light-grey",
+      "slug": "ysl-round-bag-light-grey",
+      "name": "Round Bag in Light Grey",
+      "brand": "YSL",
+      "type": "Cross-body",
+      "price": null,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": null,
+      "inStock": false,
+      "featured": false,
+      "images": [
+        "images/products/ysl-round-bag-light-grey/2.jpg",
+        "images/products/ysl-round-bag-light-grey/3.jpg",
+        "images/products/ysl-round-bag-light-grey/4.jpg",
+        "images/products/ysl-round-bag-light-grey/5.jpg",
+        "images/products/ysl-round-bag-light-grey/6.jpg",
+        "images/products/ysl-round-bag-light-grey/7.jpg",
+        "images/products/ysl-round-bag-light-grey/8.jpg",
+        "images/products/ysl-round-bag-light-grey/9.jpg",
+        "images/products/ysl-round-bag-light-grey/10.jpg",
+        "images/products/ysl-round-bag-light-grey/11.jpg",
+        "images/products/ysl-round-bag-light-grey/12.jpg",
+        "images/products/ysl-round-bag-light-grey/13.jpg",
+        "images/products/ysl-round-bag-light-grey/14.jpg",
+        "images/products/ysl-round-bag-light-grey/15.jpg"
+      ],
+      "description": {
+        "en": "Chic YSL Round bag in sophisticated light grey. Perfect cross-body bag for day or evening.",
+        "th": "กระเป๋า YSL Round สีเทาอ่อนสุดหรู กระเป๋าสะพายข้างที่เหมาะสำหรับทั้งกลางวันและกลางคืน"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Dust bag",
+        "Chain strap"
+      ]
+    },
+    {
+      "id": "prada-wallet-pink",
+      "slug": "prada-wallet-pink",
+      "name": "Wallet with Card Holder in Pink",
+      "brand": "Prada",
+      "type": "Wallet",
+      "price": 5500,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": null,
+      "inStock": false,
+      "featured": false,
+      "images": [
+        "images/products/prada-wallet-pink/2.jpg",
+        "images/products/prada-wallet-pink/3.jpg",
+        "images/products/prada-wallet-pink/4.jpg",
+        "images/products/prada-wallet-pink/5.jpg",
+        "images/products/prada-wallet-pink/6.jpg",
+        "images/products/prada-wallet-pink/7.jpg",
+        "images/products/prada-wallet-pink/8.jpg",
+        "images/products/prada-wallet-pink/9.jpg",
+        "images/products/prada-wallet-pink/10.jpg",
+        "images/products/prada-wallet-pink/11.jpg",
+        "images/products/prada-wallet-pink/12.jpg",
+        "images/products/prada-wallet-pink/13.jpg",
+        "images/products/prada-wallet-pink/14.jpg",
+        "images/products/prada-wallet-pink/15.jpg"
+      ],
+      "description": {
+        "en": "Elegant Prada wallet in pink with card holder compartments. Compact and functional design.",
+        "th": "กระเป๋าสตางค์ Prada สีชมพูพร้อมช่องใส่การ์ด ดีไซน์กะทัดรัดและใช้งานได้จริง"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Authenticity card",
+        "Box"
+      ]
+    },
+    {
+      "id": "gucci-mini-interlocking-pink",
+      "slug": "gucci-mini-interlocking-pink",
+      "name": "Mini Interlocking Bag in Pink",
+      "brand": "Gucci",
+      "type": "Shoulder-bag",
+      "price": 23900,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": null,
+      "inStock": false,
+      "featured": true,
+      "images": [
+        "images/products/gucci-mini-interlocking-pink/2.jpg",
+        "images/products/gucci-mini-interlocking-pink/3.jpg",
+        "images/products/gucci-mini-interlocking-pink/4.jpg",
+        "images/products/gucci-mini-interlocking-pink/5.jpg",
+        "images/products/gucci-mini-interlocking-pink/6.jpg",
+        "images/products/gucci-mini-interlocking-pink/7.jpg",
+        "images/products/gucci-mini-interlocking-pink/8.jpg",
+        "images/products/gucci-mini-interlocking-pink/9.jpg",
+        "images/products/gucci-mini-interlocking-pink/10.jpg",
+        "images/products/gucci-mini-interlocking-pink/11.jpg",
+        "images/products/gucci-mini-interlocking-pink/12.jpg",
+        "images/products/gucci-mini-interlocking-pink/13.jpg",
+        "images/products/gucci-mini-interlocking-pink/14.jpg",
+        "images/products/gucci-mini-interlocking-pink/15.jpg"
+      ],
+      "description": {
+        "en": "Stunning Gucci Mini Interlocking bag in pink. Features the iconic interlocking GG logo. Perfect compact size for everyday wear.",
+        "th": "กระเป๋า Gucci Mini Interlocking สีชมพูสุดสวย มีโลโก้ GG แบบสอดประสานอันเป็นเอกลักษณ์ ขนาดกะทัดรัดเหมาะสำหรับใช้ทุกวัน"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Dust bag",
+        "Authenticity card"
+      ]
+    },
+    {
+      "id": "boyy-bobby18-black-ghw",
+      "slug": "boyy-bobby18-black-ghw",
+      "name": "Bobby18 in Black GHW",
+      "brand": "BOYY",
+      "type": "Shoulder-bag",
+      "price": null,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": null,
+      "inStock": false,
+      "featured": false,
+      "images": [
+        "images/products/boyy-bobby18-black-ghw/2.jpg"
+      ],
+      "description": {
+        "en": "BOYY Bobby18 bag in classic black with gold hardware. Minimalist design with maximum style.",
+        "th": "กระเป๋า BOYY Bobby18 สีดำคลาสสิกพร้อมฮาร์ดแวร์สีทอง ดีไซน์มินิมอลลิสต์ที่มีสไตล์สูงสุด"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Dust bag"
+      ]
+    },
+    {
+      "id": "balenciaga-mini-city-ghw",
+      "slug": "balenciaga-mini-city-ghw",
+      "name": "Mini City GHW",
+      "brand": "Balenciaga",
+      "type": "Cross-body",
+      "price": null,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": null,
+      "inStock": false,
+      "featured": false,
+      "images": [
+        "images/products/balenciaga-mini-city-ghw/1.jpg",
+        "images/products/balenciaga-mini-city-ghw/2.jpg",
+        "images/products/balenciaga-mini-city-ghw/3.jpg",
+        "images/products/balenciaga-mini-city-ghw/4.jpg",
+        "images/products/balenciaga-mini-city-ghw/5.jpg",
+        "images/products/balenciaga-mini-city-ghw/6.jpg",
+        "images/products/balenciaga-mini-city-ghw/7.jpg",
+        "images/products/balenciaga-mini-city-ghw/8.jpg",
+        "images/products/balenciaga-mini-city-ghw/9.jpg",
+        "images/products/balenciaga-mini-city-ghw/10.jpg",
+        "images/products/balenciaga-mini-city-ghw/11.jpg",
+        "images/products/balenciaga-mini-city-ghw/12.jpg",
+        "images/products/balenciaga-mini-city-ghw/13.jpg",
+        "images/products/balenciaga-mini-city-ghw/14.jpg",
+        "images/products/balenciaga-mini-city-ghw/15.jpg"
+      ],
+      "description": {
+        "en": "Compact Balenciaga Mini City with gold hardware. All the style of the Classic City in a smaller size.",
+        "th": "กระเป๋า Balenciaga Mini City พร้อมฮาร์ดแวร์สีทอง สไตล์ของ Classic City ทั้งหมดในขนาดที่เล็กกว่า"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Mirror",
+        "Dust bag",
+        "Strap"
+      ]
+    },
+    {
+      "id": "celine-clutch-chain",
+      "slug": "celine-clutch-chain",
+      "name": "Clutch with Chain",
+      "brand": "Celine",
+      "type": "Clutch",
+      "price": null,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": null,
+      "inStock": false,
+      "featured": false,
+      "images": [
+        "images/products/celine-clutch-chain/2.jpg",
+        "images/products/celine-clutch-chain/3.jpg",
+        "images/products/celine-clutch-chain/4.jpg",
+        "images/products/celine-clutch-chain/5.jpg",
+        "images/products/celine-clutch-chain/6.jpg",
+        "images/products/celine-clutch-chain/7.jpg",
+        "images/products/celine-clutch-chain/8.jpg",
+        "images/products/celine-clutch-chain/9.jpg",
+        "images/products/celine-clutch-chain/10.jpg",
+        "images/products/celine-clutch-chain/11.jpg",
+        "images/products/celine-clutch-chain/12.jpg",
+        "images/products/celine-clutch-chain/13.jpg",
+        "images/products/celine-clutch-chain/14.jpg",
+        "images/products/celine-clutch-chain/15.jpg"
+      ],
+      "description": {
+        "en": "Elegant Celine clutch with chain strap. Versatile piece that transitions from day to evening.",
+        "th": "กระเป๋าคลัตช์ Celine สุดหรูพร้อมสายโซ่ ไอเท็มที่หลากหลายใช้ได้ทั้งกลางวันและกลางคืน"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Chain strap",
+        "Dust bag"
+      ]
+    },
+    {
+      "id": "prada-re-edition-2005-nylon",
+      "slug": "prada-re-edition-2005-nylon",
+      "name": "Re-Edition 2005 Re-Nylon Bag",
+      "brand": "Prada",
+      "type": "Shoulder-bag",
+      "price": null,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": 2005,
+      "inStock": false,
+      "featured": true,
+      "images": [
+        "images/products/prada-re-edition-2005-nylon/2.jpg",
+        "images/products/prada-re-edition-2005-nylon/3.jpg",
+        "images/products/prada-re-edition-2005-nylon/4.jpg",
+        "images/products/prada-re-edition-2005-nylon/5.jpg",
+        "images/products/prada-re-edition-2005-nylon/6.jpg",
+        "images/products/prada-re-edition-2005-nylon/7.jpg",
+        "images/products/prada-re-edition-2005-nylon/8.jpg",
+        "images/products/prada-re-edition-2005-nylon/9.jpg",
+        "images/products/prada-re-edition-2005-nylon/10.jpg",
+        "images/products/prada-re-edition-2005-nylon/11.jpg",
+        "images/products/prada-re-edition-2005-nylon/12.jpg",
+        "images/products/prada-re-edition-2005-nylon/13.jpg",
+        "images/products/prada-re-edition-2005-nylon/14.jpg",
+        "images/products/prada-re-edition-2005-nylon/15.jpg"
+      ],
+      "description": {
+        "en": "Iconic Prada Re-Edition 2005 in Re-Nylon material. A vintage-inspired piece with modern sustainability.",
+        "th": "กระเป๋า Prada Re-Edition 2005 วัสดุ Re-Nylon อันเป็นเอกลักษณ์ ไอเท็มแรงบันดาลใจจากวินเทจพร้อมความยั่งยืนสมัยใหม่"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Authenticity card",
+        "Dust bag"
+      ]
+    },
+    {
+      "id": "prada-black-nappa-camera",
+      "slug": "prada-black-nappa-camera",
+      "name": "Black Nappa Camera Bag",
+      "brand": "Prada",
+      "type": "Cross-body",
+      "price": null,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": null,
+      "inStock": false,
+      "featured": false,
+      "images": [
+        "images/products/prada-black-nappa-camera/2.jpg",
+        "images/products/prada-black-nappa-camera/3.jpg",
+        "images/products/prada-black-nappa-camera/4.jpg",
+        "images/products/prada-black-nappa-camera/5.jpg",
+        "images/products/prada-black-nappa-camera/6.jpg",
+        "images/products/prada-black-nappa-camera/7.jpg",
+        "images/products/prada-black-nappa-camera/8.jpg",
+        "images/products/prada-black-nappa-camera/9.jpg",
+        "images/products/prada-black-nappa-camera/10.jpg",
+        "images/products/prada-black-nappa-camera/11.jpg",
+        "images/products/prada-black-nappa-camera/12.jpg",
+        "images/products/prada-black-nappa-camera/13.jpg",
+        "images/products/prada-black-nappa-camera/14.jpg",
+        "images/products/prada-black-nappa-camera/15.jpg"
+      ],
+      "description": {
+        "en": "Prada Camera Bag in luxurious black nappa leather. Compact and stylish cross-body design.",
+        "th": "กระเป๋ากล้อง Prada หนัง nappa สีดำหรูหรา ดีไซน์สะพายข้างขนาดกะทัดรัดและมีสไตล์"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Dust bag",
+        "Strap"
+      ]
+    },
+    {
+      "id": "gucci-print-belt-bag-white",
+      "slug": "gucci-print-belt-bag-white",
+      "name": "Print Belt Bag in White",
+      "brand": "Gucci",
+      "type": "Belt-bag",
+      "price": null,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": null,
+      "inStock": false,
+      "featured": false,
+      "images": [
+        "images/products/gucci-print-belt-bag-white/1.jpg",
+        "images/products/gucci-print-belt-bag-white/2.jpg",
+        "images/products/gucci-print-belt-bag-white/3.jpg",
+        "images/products/gucci-print-belt-bag-white/4.jpg",
+        "images/products/gucci-print-belt-bag-white/5.jpg",
+        "images/products/gucci-print-belt-bag-white/6.jpg",
+        "images/products/gucci-print-belt-bag-white/7.jpg",
+        "images/products/gucci-print-belt-bag-white/8.jpg",
+        "images/products/gucci-print-belt-bag-white/9.jpg",
+        "images/products/gucci-print-belt-bag-white/10.jpg",
+        "images/products/gucci-print-belt-bag-white/11.jpg",
+        "images/products/gucci-print-belt-bag-white/12.jpg",
+        "images/products/gucci-print-belt-bag-white/13.jpg",
+        "images/products/gucci-print-belt-bag-white/14.jpg",
+        "images/products/gucci-print-belt-bag-white/15.jpg"
+      ],
+      "description": {
+        "en": "Trendy Gucci belt bag in white with signature print. Hands-free convenience with designer style.",
+        "th": "กระเป๋าคาดเอว Gucci สีขาวพร้อมลายพิมพ์ซิกเนเจอร์ ความสะดวกแบบเว้นมือพร้อมสไตล์ดีไซเนอร์"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Dust bag",
+        "Belt"
+      ]
+    },
+    {
+      "id": "chanel-trifold-caviar-wallet-ghw",
+      "slug": "chanel-trifold-caviar-wallet-ghw",
+      "name": "Black Tri-fold Caviar Wallet GHW",
+      "brand": "Chanel",
+      "type": "Wallet",
+      "price": null,
+      "currency": "฿",
+      "condition": "Pre-owned",
+      "year": null,
+      "inStock": false,
+      "featured": false,
+      "images": [
+        "images/products/chanel-trifold-caviar-wallet-ghw/1.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/2.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/3.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/4.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/5.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/6.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/7.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/8.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/9.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/10.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/11.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/12.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/13.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/14.jpg",
+        "images/products/chanel-trifold-caviar-wallet-ghw/15.jpg"
+      ],
+      "description": {
+        "en": "Classic Chanel tri-fold wallet in black caviar leather with gold hardware. Timeless elegance in a compact design.",
+        "th": "กระเป๋าสตางค์ Chanel แบบพับสามทบหนัง caviar สีดำพร้อมฮาร์ดแวร์สีทอง ความหรูหราเหนือกาลเวลาในดีไซน์กะทัดรัด"
+      },
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "includes": [
+        "Authenticity card",
+        "Box",
+        "Dust bag"
+      ]
+    }
+  ]
+}

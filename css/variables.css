@@ -1,0 +1,106 @@
+/* ===================================
+   CSS Variables - Brand of Brown
+   =================================== */
+
+:root {
+  /* Colors - Based on Brand of Brown website */
+  --color-primary: #8B7355;
+  --color-secondary: #5f6360;
+  --color-text: #000000;
+  --color-text-light: #666666;
+  --color-background: #FFFFFF;
+  --color-background-alt: #F5F5F5;
+  --color-border: #E5E5E5;
+  --color-accent: #8B7355;
+  --color-accent-hover: #6B5845;
+  --color-brown: #8B7355;
+  --color-beige: #D4A574;
+  --color-nav-bg: #E8DDD0;
+  --color-header-top-bg: #F5EFE8;
+  --color-bg: #F8F8F8;
+  --color-success: #4CAF50;
+  --color-error: #F44336;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  
+  /* Typography */
+  --font-family-base: 'Questrial', 'Arial', 'Helvetica', sans-serif;
+  --font-primary: 'Questrial', 'Arial', 'Helvetica', sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 32px;
+  --font-size-small: 14px;
+  --font-size-large: 18px;
+  --font-size-h1: 48px;
+  --font-size-h2: 36px;
+  --font-size-h3: 28px;
+  --font-size-h4: 24px;
+  --font-size-h5: 20px;
+  --font-size-h6: 18px;
+  
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  
+  --line-height-base: 1.6;
+  --line-height-heading: 1.3;
+  
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+  --spacing-xxl: 64px;
+  --spacing-2xl: 64px;
+  
+  /* Layout */
+  --max-width: 1200px;
+  --container-max-width: 1200px;
+  --header-height: 80px;
+  --footer-min-height: 300px;
+  
+  /* Border Radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
+  
+  /* Transitions */
+  --transition-speed: 0.3s;
+  --transition-timing: ease-in-out;
+  --transition-base: 0.3s ease-in-out;
+  
+  /* Z-index */
+  --z-index-dropdown: 100;
+  --z-index-sticky: 200;
+  --z-index-modal: 1000;
+  --z-index-overlay: 999;
+  
+  /* Grid */
+  --grid-gap: var(--spacing-md);
+  --product-card-width: 280px;
+}
+
+/* Mobile Breakpoints */
+@media (max-width: 767px) {
+  :root {
+    --font-size-h1: 32px;
+    --font-size-h2: 28px;
+    --font-size-h3: 24px;
+    --font-size-h4: 20px;
+    --header-height: 60px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 48px;
+    --grid-gap: var(--spacing-sm);
+  }
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop authentic pre-owned luxury handbags from Chanel, Gucci, YSL, Balenciaga, Prada, BOYY, and Celine at Brand of Brown.">
+  <meta name="keywords" content="shop luxury handbags, designer bags, Chanel bags, Gucci bags, YSL bags, Balenciaga bags">
+  <title>Shop - Brand of Brown</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.png" alt="Brand of Brown" class="header__logo-img">
+      </a>
+      
+      <nav class="header__nav" id="mainNav">
+        <ul class="header__nav-list">
+          <li><a href="index.html" class="header__nav-item">Home</a></li>
+          <li><a href="shop.html" class="header__nav-item header__nav-item--active">Shop</a></li>
+          <li><a href="about.html" class="header__nav-item">About</a></li>
+          <li><a href="contact.html" class="header__nav-item">Contact</a></li>
+          <li><a href="faq.html" class="header__nav-item">FAQ</a></li>
+        </ul>
+      </nav>
+      
+      <button class="header__menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+    <div class="container">
+      <div class="shop">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb">
+          <a href="index.html" class="breadcrumb__link">Home</a>
+          <span class="breadcrumb__separator">/</span>
+          <span class="breadcrumb__current">Shop</span>
+        </nav>
+
+        <!-- Shop Header -->
+        <div class="shop__header">
+          <h1 class="shop__title">Shop Luxury Handbags</h1>
+          
+          <div class="shop__controls">
+            <div class="shop__search">
+              <div class="search-bar">
+                <input 
+                  type="text" 
+                  class="search-bar__input" 
+                  id="searchInput" 
+                  placeholder="Search products..."
+                  aria-label="Search products"
+                >
+                <button class="search-bar__button" id="searchButton">Search</button>
+              </div>
+            </div>
+            
+            <div class="shop__sort">
+              <label for="sortSelect">Sort by:</label>
+              <select id="sortSelect" class="shop__sort-select">
+                <option value="featured">Featured</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="name-asc">Name: A to Z</option>
+                <option value="name-desc">Name: Z to A</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shop Content -->
+        <div class="shop__content">
+          <!-- Filter Sidebar -->
+          <aside class="shop__sidebar">
+            <div class="filter-sidebar">
+              <h2 class="filter-sidebar__title">Filters</h2>
+              
+              <!-- Brand Filter -->
+              <div class="filter-sidebar__section">
+                <h3 class="filter-sidebar__section-title">Brand</h3>
+                <div class="filter-sidebar__options" id="brandFilters">
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="BOYY" data-filter="brand">
+                    <span class="filter-sidebar__label">BOYY</span>
+                  </label>
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="Celine" data-filter="brand">
+                    <span class="filter-sidebar__label">Celine</span>
+                  </label>
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="Chanel" data-filter="brand">
+                    <span class="filter-sidebar__label">Chanel</span>
+                  </label>
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="Balenciaga" data-filter="brand">
+                    <span class="filter-sidebar__label">Balenciaga</span>
+                  </label>
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="Gucci" data-filter="brand">
+                    <span class="filter-sidebar__label">Gucci</span>
+                  </label>
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="Prada" data-filter="brand">
+                    <span class="filter-sidebar__label">Prada</span>
+                  </label>
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="YSL" data-filter="brand">
+                    <span class="filter-sidebar__label">YSL</span>
+                  </label>
+                </div>
+              </div>
+              
+              <!-- Type Filter -->
+              <div class="filter-sidebar__section">
+                <h3 class="filter-sidebar__section-title">Type</h3>
+                <div class="filter-sidebar__options" id="typeFilters">
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="Shoulder-bag" data-filter="type">
+                    <span class="filter-sidebar__label">Shoulder Bag</span>
+                  </label>
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="Cross-body" data-filter="type">
+                    <span class="filter-sidebar__label">Cross Body</span>
+                  </label>
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="Belt-bag" data-filter="type">
+                    <span class="filter-sidebar__label">Belt Bag</span>
+                  </label>
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="Wallet" data-filter="type">
+                    <span class="filter-sidebar__label">Wallet</span>
+                  </label>
+                  <label class="filter-sidebar__option">
+                    <input type="checkbox" class="filter-sidebar__checkbox" value="Clutch" data-filter="type">
+                    <span class="filter-sidebar__label">Clutch</span>
+                  </label>
+                </div>
+              </div>
+              
+              <!-- Clear Filters -->
+              <button class="btn btn--outline" id="clearFilters" style="width: 100%; margin-top: 1rem;">
+                Clear All Filters
+              </button>
+            </div>
+          </aside>
+
+          <!-- Product Grid -->
+          <div class="shop__main">
+            <div class="shop__results" id="resultsCount">
+              Showing all products
+            </div>
+            
+            <div class="shop__grid" id="productGrid">
+              <!-- Products will be loaded dynamically via JavaScript -->
+            </div>
+            
+            <div class="shop__empty" id="emptyState" style="display: none;">
+              <div class="shop__empty-icon">🔍</div>
+              <p class="shop__empty-text">No products found matching your criteria.</p>
+              <button class="btn btn--primary mt-md" id="resetSearch">Reset Filters</button>
+            </div>
+            
+            <!-- Pagination -->
+            <div class="pagination" id="pagination">
+              <!-- Pagination will be generated dynamically -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__content">
+        <div class="footer__section">
+          <h3 class="footer__section-title">Brand of Brown</h3>
+          <p>Your trusted destination for authentic pre-owned luxury handbags.</p>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/brandofbrown" target="_blank" rel="noopener" class="footer__social-link">
+              <img src="images/icons/facebook.png" alt="Facebook" class="footer__social-icon">
+            </a>
+            <a href="https://www.instagram.com/brandofbrown" target="_blank" rel="noopener" class="footer__social-link">
+              <img src="images/icons/instagram.png" alt="Instagram" class="footer__social-icon">
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__section-title">Quick Links</h3>
+          <nav class="footer__links">
+            <a href="index.html" class="footer__link">Home</a>
+            <a href="shop.html" class="footer__link">Shop</a>
+            <a href="about.html" class="footer__link">About</a>
+            <a href="contact.html" class="footer__link">Contact</a>
+            <a href="faq.html" class="footer__link">FAQ</a>
+          </nav>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__section-title">Contact Us</h3>
+          <div class="footer__links">
+            <a href="mailto:brandofbrown@gmail.com" class="footer__link">brandofbrown@gmail.com</a>
+            <a href="https://bit.ly/2KdmlqO" target="_blank" rel="noopener" class="footer__link">Line VIP Group</a>
+            <a href="https://lin.ee/IFitMRs" target="_blank" rel="noopener" class="footer__link">Line Official: @brandofbrown</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer__banner">
+        <img src="images/footer-banner.jpg" alt="Brand of Brown" class="footer__banner-img">
+      </div>
+      
+      <div class="footer__bottom">
+        <p>&copy; 2024 Brand of Brown. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/config.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
