@@ -393,7 +393,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--spacing-xl);
-  padding: var(--spacing-md);
+  padding: var(--spacing-md) var(--spacing-md) 0 var(--spacing-md);
   background-color: #F5EFE8;
   border-radius: var(--border-radius-lg);
 }
