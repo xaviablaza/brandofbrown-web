@@ -23,7 +23,7 @@
     let currentIndex = 0;
     const totalSlides = slides.length;
     let autoplayInterval;
-    const autoplayDelay = 4000; // 4 seconds
+    const autoplayDelay = 7000; // 7 seconds
 
     // Update carousel position
     function updateCarousel() {

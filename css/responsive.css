@@ -539,7 +539,8 @@
 
   /* Contact Gallery */
   .contact-gallery__image {
-    height: 300px;
+    height: auto;
+    max-height: 80vh;
   }
 
   .contact-gallery__nav {
