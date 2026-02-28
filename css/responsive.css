@@ -80,6 +80,9 @@
   /* Header */
   .header__top {
     padding: var(--spacing-md) var(--spacing-sm);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .header__logo-img {
