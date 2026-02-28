@@ -568,8 +568,7 @@
 
   /* Contact Gallery */
   .contact-gallery__image {
-    height: auto;
-    max-height: 80vh;
+    max-height: 70vh;
   }
 
   .contact-gallery__nav {
