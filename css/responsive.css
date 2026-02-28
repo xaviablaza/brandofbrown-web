@@ -526,16 +526,20 @@
   }
 
   .contact__method-title {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-lg);
   }
 
   .contact__method-desc {
+    font-size: var(--font-size-sm);
+  }
+
+  .contact__method-desc-th {
     font-size: var(--font-size-xs);
   }
 
   .contact__method-button {
-    font-size: var(--font-size-sm);
-    padding: var(--spacing-xs) var(--spacing-md);
+    font-size: var(--font-size-base);
+    padding: var(--spacing-sm) var(--spacing-md);
   }
 
   /* Contact Gallery */
