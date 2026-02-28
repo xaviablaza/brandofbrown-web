@@ -356,6 +356,7 @@
   .contact__header-line1,
   .contact__header-line2 {
     font-size: var(--font-size-base);
+    text-align: center;
   }
 
   .contact__methods {
