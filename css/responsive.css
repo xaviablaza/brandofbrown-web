@@ -85,6 +85,13 @@
     align-items: center;
   }
 
+  .header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
   .header__logo-img {
     height: 80px;
     width: 80px;
