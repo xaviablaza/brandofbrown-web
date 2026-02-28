@@ -429,6 +429,8 @@
   color: var(--color-text-light);
   margin-bottom: var(--spacing-md);
   line-height: 1.4;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
 }
 
 .contact__method-button {
