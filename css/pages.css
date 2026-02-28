@@ -421,7 +421,7 @@
 
 .contact__method-desc.contact__method-username {
   font-style: italic;
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: 0;
 }
 
 .contact__method-desc-th {

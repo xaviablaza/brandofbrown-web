@@ -369,6 +369,10 @@
     font-size: var(--font-size-sm);
   }
 
+  .contact__method-desc.contact__method-username {
+    margin-bottom: var(--spacing-sm);
+  }
+
   .contact__method-desc-th {
     font-size: var(--font-size-xs);
   }
@@ -534,6 +538,10 @@
 
   .contact__method-desc {
     font-size: var(--font-size-sm);
+  }
+
+  .contact__method-desc.contact__method-username {
+    margin-bottom: var(--spacing-sm);
   }
 
   .contact__method-desc-th {
