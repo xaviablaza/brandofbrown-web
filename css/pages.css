@@ -372,6 +372,16 @@
   line-height: 1.6;
 }
 
+.contact__header-line1-th {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.6;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+}
+
 .contact__header-line2 {
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-normal);

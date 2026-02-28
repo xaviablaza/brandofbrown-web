@@ -359,6 +359,11 @@
     text-align: center;
   }
 
+  .contact__header-line1-th {
+    font-size: var(--font-size-sm);
+    text-align: center;
+  }
+
   .contact__methods {
     grid-template-columns: 1fr 1fr;
     gap: var(--spacing-md);
