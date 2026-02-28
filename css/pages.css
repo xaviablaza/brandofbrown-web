@@ -350,7 +350,7 @@
 /* ==================== CONTACT PAGE ==================== */
 
 .contact {
-  padding: var(--spacing-2xl) 0;
+  padding: var(--spacing-2xl) 0 0 0;
 }
 
 .contact__content {
