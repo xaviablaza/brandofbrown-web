@@ -511,7 +511,8 @@
 
   /* Contact Methods */
   .contact__methods {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;  /* Keep 2x2 grid on mobile */
+    gap: var(--spacing-sm);  /* Reduce gap for smaller screens */
     padding: var(--spacing-md);
   }
 
