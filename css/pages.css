@@ -456,6 +456,7 @@
   transition: all var(--transition-base);
   font-family: inherit;
   text-decoration: none;
+  margin-top: auto;
 }
 
 .contact__method-button:hover {
