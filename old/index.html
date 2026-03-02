@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Brand of Brown - Authentic pre-owned luxury handbags. Buy, sell, and consign designer bags from Chanel, Gucci, YSL, Balenciaga, and more.">
+  <meta name="keywords" content="luxury handbags, pre-owned designer bags, Chanel, Gucci, YSL, Balenciaga, Prada, BOYY, Celine">
+  <title>Brand of Brown - Authentic Pre-Owned Luxury Handbags</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../images/logo.png">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__top">
+      <a href="index.html" class="header__logo">
+        <img src="../images/logo.png" alt="Brand of Brown" class="header__logo-img">
+      </a>
+    </div>
+    
+    <nav class="header__nav" id="mainNav">
+      <ul class="header__nav-list">
+        <li><a href="index.html" class="header__nav-item header__nav-item--active">Home</a></li>
+        <li><a href="shop.html" class="header__nav-item">Shop</a></li>
+        <li><a href="../index.html" class="header__nav-item">Contact</a></li>
+        <li><a href="about.html" class="header__nav-item">About Us</a></li>
+        <li><a href="faq.html" class="header__nav-item">FAQ</a></li>
+      </ul>
+      
+      <button class="header__menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Hero Carousel Section -->
+    <section class="hero">
+      <div class="carousel" id="heroCarousel">
+        <div class="carousel__track" id="carouselTrack">
+          <div class="carousel__slide">
+            <img src="../images/hero/slide1.jpg" alt="Luxury Handbags Collection" class="carousel__image">
+          </div>
+          <div class="carousel__slide">
+            <img src="../images/hero/slide2.jpg" alt="Designer Bags" class="carousel__image">
+          </div>
+          <div class="carousel__slide">
+            <img src="../images/hero/slide3.jpg" alt="Pre-Owned Luxury" class="carousel__image">
+          </div>
+        </div>
+        
+        <div class="carousel__controls">
+          <button class="carousel__button carousel__button--prev" id="carouselPrev" aria-label="Previous slide">&lt;</button>
+          <button class="carousel__button carousel__button--next" id="carouselNext" aria-label="Next slide">&gt;</button>
+        </div>
+        
+        <div class="carousel__dots" id="carouselDots">
+          <span class="carousel__dot carousel__dot--active" data-slide="0"></span>
+          <span class="carousel__dot" data-slide="1"></span>
+          <span class="carousel__dot" data-slide="2"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products section">
+      <div class="container">
+        <h2 class="section__title">Featured Products</h2>
+        <p class="section__subtitle">Discover our curated collection of authentic pre-owned luxury handbags</p>
+        
+        <div class="featured-products__grid" id="featuredProducts">
+          <!-- Products will be loaded dynamically via JavaScript -->
+        </div>
+        
+        <div class="flex flex--center mt-xl">
+          <a href="shop.html" class="btn btn--primary">View All Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section">
+      <div class="container">
+        <h2 class="section__title">Our Services</h2>
+        
+        <div class="services__grid">
+          <div class="service-card">
+            <h3 class="service-card__title">Buy <span class="underline">from</span> us</h3>
+            <p class="service-card__description">We offer quality preowned luxury items at accessible prices.</p>
+            <p class="service-card__description service-card__description--thai">
+              ทวงเเรายยสินค้า<br>
+              เเบรนด์เนมมือสองของเเท้<br>
+              สภาพดี ในราคาที่จับต้องได้
+            </p>
+            <p class="service-card__description service-card__description--thai">
+              อัพเดทสินค้าที่งหนดจากเรา<br>
+              รายสัปดาห์ก่อนใครในลุค VIP
+            </p>
+            <a href="shop.html" class="service-card__button">Join now</a>
+          </div>
+          
+          <div class="service-card">
+            <h3 class="service-card__title">Sell <span class="underline">to</span> us</h3>
+            <p class="service-card__description">Sell to us in a relatively high price.</p>
+            <p class="service-card__description service-card__description--thai">
+              ทวงการับซื้อ<br>
+              เเบรนต์เนมมือสองเเท้ในราคาสูง<br>
+              โอนทันที๊หลังตรวจรับของ มีเเนะเข้า<br>
+              รับฟรีถ้าเดินพื้นที่ กทม.
+            </p>
+            <p class="service-card__description service-card__description--thai">
+              จ่ายเงียงส่งรปเพิ่มให้ทางเรา<br>
+              ประเมินราคาเเละนัดเวลาเข้ารับของ
+            </p>
+            <a href="../index.html" class="service-card__button">Line us</a>
+          </div>
+          
+          <div class="service-card">
+            <h3 class="service-card__title">Con<span class="underline">sign</span></h3>
+            <p class="service-card__description">Consign with us. Receive the money immediately after your bag(s) is sold.</p>
+            <p class="service-card__description service-card__description--thai">
+              ทวงการับฝากขาย<br>
+              เเบรนด์เนมมือสองเเท้โดย<br>
+              ไม่คิดค่าบริการเพิ่ม
+            </p>
+            <p class="service-card__description service-card__description--thai">
+              จ่ายเงียงส่งรปเพิ่มให้ทางเรา<br>
+              ประเมินราคาเเละนัดเวลาเข้ารับของ
+            </p>
+            <a href="../index.html" class="service-card__button">Line us</a>
+          </div>
+          
+          <div class="service-card">
+            <h3 class="service-card__title">Install<span class="underline">ment</span></h3>
+            <p class="service-card__description">We offer up to 10 months installment.</p>
+            <p class="service-card__description service-card__description--thai">
+              ทางเราจัดส่งสินค้าให้ถึงที่<br>
+              ต้องรอส่อมครบ
+            </p>
+            <p class="service-card__description service-card__description--thai">
+              ผ่อน 0% บนบัตรสด 10 เดือน<br>
+              (ค่าธรรมเนียมธนาคาร 5%)
+            </p>
+            <p class="service-card__description service-card__description--thai">
+              ชำระเงินผ่านทาง Shopee
+            </p>
+            <a href="../index.html" class="service-card__button">Line us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="home-contact section">
+      <div class="container">
+        <h2 class="section__title">Get in Touch</h2>
+        <p class="section__subtitle">Contact us through any of the methods below</p>
+        
+        <div class="home-contact__content" style="text-align: center; padding: var(--spacing-xl) 0;">
+          <p style="margin-bottom: var(--spacing-lg); font-size: var(--font-size-lg);">
+            We'd love to hear from you! Reach out through email, Line, or visit our social media pages.
+          </p>
+          <div style="display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+            <a href="mailto:brandofbrown@gmail.com" class="btn btn--primary">Email Us</a>
+            <a href="https://lin.ee/IFitMRs" target="_blank" rel="noopener" class="btn btn--secondary">Line Official</a>
+            <a href="../index.html" class="btn btn--outline">View All Contact Options</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__content-grid">
+        <div class="footer__section">
+          <h3 class="footer__section-title">ABOUT</h3>
+          <a href="about.html" class="footer__link">brandofbrown</a>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__section-title">SELL/CONSIGN</h3>
+          <a href="../index.html" class="footer__link">how to sell/consign</a>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__section-title">SHOP</h3>
+          <a href="shop.html" class="footer__link">products</a>
+        </div>
+        
+        <div class="footer__image">
+          <img src="../images/footer-banner.jpg" alt="Brand of Brown Luxury Handbags" class="footer__banner-img">
+        </div>
+      </div>
+      
+      <div class="footer__content-grid footer__content-grid--secondary">
+        <div class="footer__section">
+          <h3 class="footer__section-title">SOCIAL MEDIA</h3>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/brandofbrown" target="_blank" rel="noopener" class="footer__social-link">
+              <img src="../images/icons/facebook.png" alt="Facebook" class="footer__social-icon">
+            </a>
+            <a href="https://www.instagram.com/brandofbrown" target="_blank" rel="noopener" class="footer__social-link">
+              <img src="../images/icons/instagram.png" alt="Instagram" class="footer__social-icon">
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__section-title">VIP GROUP</h3>
+          <a href="https://bit.ly/2KdmlqO" target="_blank" rel="noopener" class="footer__button">Join now</a>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__section-title">CUSTOMER CARE</h3>
+          <a href="faq.html" class="footer__link">return policy & more</a>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p>&copy;2021 by brandofbrown.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../js/config.js"></script>
+  <script src="../js/navigation.js"></script>
+  <script src="../js/carousel.js"></script>
+  <script src="../js/products.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

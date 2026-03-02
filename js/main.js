@@ -30,7 +30,17 @@ class App {
     const path = window.location.pathname;
     const page = path.substring(path.lastIndexOf('/') + 1);
     
-    if (page === '' || page === 'index.html') return 'index';
+    // Handle old/* pages
+    if (path.includes('/old/')) {
+      if (page === '' || page === 'index.html') return 'index';
+      if (page === 'shop.html') return 'shop';
+      if (page === 'product.html') return 'product';
+      if (page === 'about.html') return 'about';
+      if (page === 'faq.html') return 'faq';
+    }
+    
+    // Root level pages
+    if (page === '' || page === 'index.html') return 'contact'; // Root is now contact page
     if (page === 'shop.html') return 'shop';
     if (page === 'product.html') return 'product';
     if (page === 'about.html') return 'about';

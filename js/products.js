@@ -9,7 +9,11 @@ class ProductManager {
 
   async loadProducts() {
     try {
-      const response = await fetch('data/products.json');
+      // Determine data path based on current location
+      const isInOldDir = window.location.pathname.includes('/old/');
+      const dataPath = isInOldDir ? '../data/products.json' : 'data/products.json';
+      
+      const response = await fetch(dataPath);
       const data = await response.json();
       this.products = data.products;
       this.filteredProducts = [...this.products];
@@ -75,12 +79,17 @@ class ProductManager {
       `${product.currency}${product.price.toLocaleString()}` : 
       'Contact for Price';
     
+    // Determine paths based on current location
+    const isInOldDir = window.location.pathname.includes('/old/');
+    const imagePrefix = isInOldDir ? '../' : '';
+    const productLink = isInOldDir ? 'product.html' : 'old/product.html';
+    
     const mainImage = product.images && product.images.length > 0 ? 
       product.images[0] : 
-      'images/placeholder.jpg';
+      `${imagePrefix}images/placeholder.jpg`;
     
     return `
-      <a href="product.html?id=${product.id}" class="product-card">
+      <a href="${productLink}?id=${product.id}" class="product-card">
         <div class="product-card__image-wrapper">
           <img src="${mainImage}" alt="${product.name}" class="product-card__image" loading="lazy">
         </div>
