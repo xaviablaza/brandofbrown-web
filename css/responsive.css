@@ -371,7 +371,7 @@
   }
 
   .contact__method {
-    padding: var(--spacing-md);
+    padding: var(--spacing-md) 0;
   }
 
   .contact__method-title {
@@ -537,7 +537,7 @@
   }
 
   .contact__method {
-    padding: var(--spacing-md);
+    padding: var(--spacing-md) 0;
   }
 
   .contact__method-icon {
