@@ -1,6 +1,5 @@
 // Cookie Consent Banner
 (function () {
-  if (document.cookie.indexOf('cookie_consent=') !== -1) return;
 
   var div = document.createElement('div');
   div.id = 'cookie-banner';
