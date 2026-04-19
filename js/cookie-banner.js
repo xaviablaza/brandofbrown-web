@@ -8,7 +8,7 @@
     <div class="cookie-banner__inner">
       <p class="cookie-banner__text">
         We use cookies on our website to see how you interact with it. By accepting, you agree to our use of such cookies.
-        <a data-wpembed="inline" href="https://app.websitepolicies.com/policies/view/oamn2e25">Privacy policy</a>
+        <a href="https://app.websitepolicies.com/policies/view/oamn2e25" target="_blank" rel="noopener noreferrer">Privacy policy</a>
       </p>
       <div class="cookie-banner__actions">
         <button class="cookie-banner__btn cookie-banner__btn--accept">Accept</button>
@@ -18,12 +18,6 @@
   `;
 
   document.body.appendChild(banner);
-
-  // Load WebsitePolicies embed script
-  const wpScript = document.createElement('script');
-  wpScript.src = 'https://cdn.websitepolicies.io/lib/embed/embed.min.js';
-  wpScript.defer = true;
-  document.head.appendChild(wpScript);
 
   function dismiss(accepted) {
     const value = accepted ? 'accepted' : 'declined';
