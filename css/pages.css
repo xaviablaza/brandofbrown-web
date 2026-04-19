@@ -481,7 +481,7 @@
 
 /* Contact Gallery Carousel */
 .contact-gallery {
-  padding: 0 0 var(--spacing-2xl) 0;
+  padding: 0;
   background-color: var(--color-white);
   overflow: hidden;
 }
