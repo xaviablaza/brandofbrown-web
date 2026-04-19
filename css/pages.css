@@ -491,6 +491,7 @@
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
+  min-height: 400px;
 }
 
 .contact-gallery__track {
