@@ -32,10 +32,7 @@ body {
 
 /* Header Top Section - Logo Area */
 .header__top {
-  background-color: var(--color-header-top-bg);
-  background-image: url('../images/header-bg.jpg');
-  background-size: cover;
-  background-position: center;
+  background: url('../images/header-bg.jpg') center / cover no-repeat;
   padding: var(--spacing-md) var(--spacing-md) var(--spacing-sm);
   display: flex;
   justify-content: center;
