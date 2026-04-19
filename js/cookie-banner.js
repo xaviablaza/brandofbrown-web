@@ -5,12 +5,12 @@
   div.id = 'cookie-banner';
   div.innerHTML =
     '<p>We use cookies on our website to see how you interact with it. By accepting, you agree to our use of such cookies. ' +
-    '<a href="https://app.websitepolicies.com/policies/view/oamn2e25" target="_blank" style="color:#D4A574;text-decoration:underline">Privacy policy</a></p>' +
-    '<button id="cookie-accept" style="background:#fff;color:#000;border:1px solid #fff;padding:8px 20px;cursor:pointer;border-radius:4px">Accept</button>' +
-    '<button id="cookie-decline" style="background:transparent;color:#fff;border:1px solid #fff;padding:8px 20px;cursor:pointer;border-radius:4px">Decline</button>';
+    '<a href="https://app.websitepolicies.com/policies/view/oamn2e25" target="_blank" style="color:#8B7355;text-decoration:underline">Privacy policy</a></p>' +
+    '<button id="cookie-accept" style="background:#222;color:#fff;border:1px solid #222;padding:8px 20px;cursor:pointer;border-radius:4px">Accept</button>' +
+    '<button id="cookie-decline" style="background:transparent;color:#222;border:1px solid #222;padding:8px 20px;cursor:pointer;border-radius:4px">Decline</button>';
 
   var s = div.style;
-  s.cssText = 'position:fixed;bottom:0;left:0;width:100%;background:#000;color:#fff;padding:14px 20px;font-size:14px;line-height:1.5;display:flex;align-items:center;gap:12px;flex-wrap:wrap;z-index:99999;box-sizing:border-box';
+  s.cssText = 'position:fixed;bottom:0;left:0;width:100%;background:#fff;color:#222;padding:14px 20px;font-size:14px;line-height:1.5;display:flex;align-items:center;gap:12px;flex-wrap:wrap;z-index:99999;box-sizing:border-box;box-shadow:0 -2px 8px rgba(0,0,0,0.1)';
 
   document.body.appendChild(div);
 
